@@ -47,6 +47,7 @@ if (!empty($_POST['submit'])) {
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input type="password" name="password" class="form-control" placeholder="Password">
+                        <input type="hidden" name="version" value="<?php echo $encodedVersion ?>"> 
                     </div>
 
                     <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button>
